@@ -7,7 +7,7 @@
 $PluginInfo['Index'] = array(
    'Name'=>'Index',
    'Description' => "This plugin adds css dropdown menu to the menu.",
-   'Version' => '1.0',
+   'Version' => '1.1',
    'MobileFriendly'=>TRUE,
    'Author' => "VrijVlinder",
    'AuthorEmail' => 'contact@vrijvlinder.com',
@@ -31,7 +31,7 @@ class Index_Plugin extends Gdn_Plugin {
 
 public function Base_Render_Before($Sender) {
 $Sender->AddJsFile('plugins/Index/index.js');
-$Sender->AddCssFile('plugins/Index/index.css');
+$Sender->AddCssFile('plugins/Index/design/index.css');
 }
 
 
