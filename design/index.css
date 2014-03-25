@@ -86,6 +86,7 @@
 	position: absolute;
 	top: 15px;
 	width: 165px;
+	z-index:99999;
 }
 
 #menu-bar ul a
